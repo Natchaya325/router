@@ -3,9 +3,9 @@
     <h1>Product Detail</h1>
     <v-img :src="image" height="200px" contain></v-img>
     <h1>{{ productid }}. {{ title }}</h1>
-    <h2>{{ price }}  $</h2> 
-      
-    <h3>{{ description }}</h3> 
+    <h2>{{ price }} $</h2>
+
+    <h3>{{ description }}</h3>
     {{ category }}
   </v-container>
 </template>
