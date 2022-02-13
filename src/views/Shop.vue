@@ -39,7 +39,7 @@
             text
             :to="{
               name: 'detail',
-              params: { id: product.id, description: product.description },
+              params: { id: product.id, description: product.description, image: product.image, price: product.price, title: product.title, category: product.category},
             }"
           >
             Detail
@@ -739,13 +739,6 @@ export default {
 };
 </script>
 
-<style scoped>
-.qty-minus {
-  cursor: pointer;
-  margin-right: 20px;
-}
-.qty-plus {
-  cursor: pointer;
-  margin-right: 20px;
-}
+<style >
+
 </style>
